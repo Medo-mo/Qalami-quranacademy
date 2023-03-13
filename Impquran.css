@@ -1,0 +1,280 @@
+:root{
+    --Maincolor:#4242da;
+    --Wcolor:#ffffff;
+    --Bcolor:#000000;
+    --Pleft:5%;
+    --Ptop:50px;
+    --Fontfamily:Arial, Helvetica, sans-serif ;
+    --Fontsize:16px;
+    --Sfontsize:12px;
+    --Fontweight:500;
+
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+*::selection{
+    color: var(--Wcolor);
+    background-color: var(--Maincolor);
+}
+body{
+    scroll-behavior: smooth;
+}
+/*starting header section*/
+.header-section{
+    width: 100%;
+    background-color: var(--Maincolor);
+    height: 40px;
+}
+.header-section .container{
+    padding-left: 5%;
+    width: 90%;
+    position: relative;
+
+}
+.header-section .container img{
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+}
+.header-section .container a{
+    color: var(--Wcolor);
+    font-size: var(--Fontsize);
+    font-family:var(--Fontfamily) ;
+    text-decoration: none;
+   margin-top: -29px;
+   display: flex;
+   width: fit-content;
+   margin-left: 50%;
+   transform: translateX(-50%);
+   justify-content: center;
+font-weight: var(--Fontweight);
+letter-spacing: 1px;
+}
+.header-section .container a:hover{
+    color: #000000;
+}
+
+@media (max-width:380px) {
+    .header-section .container a{
+        font-size: var(--Sfontsize);
+    }
+}
+/*ending header section*/
+/*starting back section*/
+.back-section {
+    width: 100%;
+    height: 40px;
+    background-color: #757eea;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.back-section .container{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.back-section .container .back-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+ 
+}
+.back-section .container .back-div > a {
+    color: var(--Wcolor);
+    font-size: 20px;
+    font-family: arial;
+    text-decoration: none;
+}
+.back-section .container .back-div > a:hover{
+    color: rgb(240, 57, 57);
+}
+.back-section .container .ul-items{
+    width: 20%;
+       text-decoration: none;
+}
+.back-section .container .ul-items ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.back-section .container .ul-items ul li{
+  list-style-type: none;
+}
+.back-section .container .ul-items ul li a {
+    color: var(--Wcolor);
+    font-size: 20px;
+}
+.back-section .container .ul-items ul li a:hover{
+    color: red;
+}
+@media (max-width:800px) {
+    .back-section .container .ul-items{
+        width: 40%;
+           text-decoration: none;
+    }
+    .back-section .container .ul-items ul li a {
+        font-size: 15px;
+    }
+    .back-section .container .back-div > a {
+        font-size: 15px;
+    }
+}
+/*end back home*/
+/*starrting article*/
+.prophet-art{
+width: 100%;
+height: auto;
+}
+.prophet-art .container{
+width: 50%;
+margin-left: 25%;
+}
+
+.prophet-art .container h1{
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+color: var(--Maincolor);
+padding: 20px 0px;
+}
+.prophet-art .container h3{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--Maincolor);
+    padding: 20px 0px;
+}
+.prophet-art .container p{
+    font-family: 12px;
+    line-height: 24px;
+    font-size: 18px;
+}
+.prophet-art .container h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 15px 0px 30px 0px;
+
+}
+.prophet-art .container a{
+    color: var(--Maincolor);
+}
+@media (max-width:500px) {
+    .prophet-art .container{
+        width: 90%;
+        margin-left: 5%;
+        }
+}
+@media (max-width:900px) and (min-width: 501px){
+    .prophet-art .container{
+        width: 80%;
+        margin-left: 10%;
+        }
+}
+/*starting footer section*/
+.footer-section{
+    background-color: var(--Maincolor);
+    width: 100%;
+    
+     }
+     .footer-section .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    padding-left: var(--Pleft);
+     }
+     .footer-section .container .slogan-footer{
+    flex-basis: 45%;
+     }
+     .footer-section .container .slogan-footer > p {
+        text-align: center;
+        font-size: 20px;
+        font-family: var(--Fontfamily);
+        padding: 20px 0px;
+    }
+     .footer-section .container .slogan-footer > img{
+    width: 80%;
+    height: auto;
+    padding-left: 10%;
+     }
+     .footer-section .container .contact-footer{
+    flex-basis:25% ;
+     }
+     .footer-section .container .contact-footer > p{
+        text-align:center;
+        font-size: 20px;
+        font-family: var(--Fontfamily);
+        padding: 20px 0px;
+     }
+     .footer-section .container .contact-footer > ul{
+        margin: 10px 10%;
+     }
+     .footer-section .container .contact-footer > ul li {
+        padding: 10px 0px;
+        list-style-type: none;
+    }
+     .footer-section .container .contact-footer > ul li a{
+    text-decoration: none;
+    color: var(--Wcolor);
+    font-size: 18px;
+     }
+     .footer-section .container .contact-footer > ul li a:hover{
+        color:black;
+         }
+     .footer-section .container .contact-footer > ul li a .icons-contact{
+        padding: 0% 5%;
+     }
+     .footer-section .container .useful-links{
+    flex-basis: 25%;
+     }
+    .footer-section .container .useful-links > p{
+        text-align:center;
+        font-size: 20px;
+        font-family: var(--Fontfamily);
+        padding: 20px 0px;
+     }
+    
+     .footer-section .container .useful-links ul {
+        margin: 10px 10%;
+    }
+    .footer-section .container .useful-links ul li{
+        padding: 5px 0px;
+        list-style-type: none;
+    }
+    .footer-section .container .useful-links ul li a{
+        text-decoration: none;
+    color: var(--Wcolor);
+    font-size: 18px;
+    }
+    .footer-section .container .useful-links ul li a:hover{
+        color: #000000;
+    }
+    .footer-section .container .useful-links ul li ul{
+        display: flex;
+    }
+    .footer-section .container .useful-links ul li ul li{
+        padding: 5px 10px;
+    }
+    .footer-section .container .useful-links ul li ul li a:hover{
+        color: black;
+    }
+    @media (max-width:700px) {
+        .footer-section .container .slogan-footer{
+            flex-basis: 100%;
+             }
+             .footer-section .container .contact-footer{
+                flex-basis:100% ;
+                 }
+                 .footer-section .container .useful-links{
+                    flex-basis: 100%;
+                     }
+    }
+    .rights-reserved{
+        text-align: center;
+        font-size: 15px;
+        color: black;
+        padding: 10px 0px;
+    }
