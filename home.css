@@ -270,6 +270,7 @@ padding-bottom: 50px;
     text-align: center;
     font-family: var(--Fontfamily);
     font-size: 25px;
+    color:white;
 }
 .advantages-section .container .teachers-cards .inside-card > p {
     font-size: var(--Fontsize);
