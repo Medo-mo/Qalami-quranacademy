@@ -139,6 +139,7 @@ letter-spacing: 1px;
     font-size: 25px;
     padding: 20px 0px;
     font-family: Arial, Helvetica, sans-serif;
+    color: var(--Maincolor);
 }
 .terms-section .container p {
     font-size: 18px;
