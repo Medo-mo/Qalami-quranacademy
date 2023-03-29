@@ -62,12 +62,64 @@ letter-spacing: 1px;
 }
 /*ending header section*/
 /*starting content section*/
+/*form*/
+.content-section .container .form-reg {
+    width: 50%;
+ margin-left: 25%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 1;
+    border: 5px solid var(--Maincolor);
+    height: auto;
+    border-radius: 5px;
+   display: none;
+}
+.content-section .container .form-reg label {
+    color: white;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    padding: 10px 0px;
+    font-size: 20px;
+    font-family: arial;
+}
+.content-section .container .form-reg input {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    height: 33px;
+    border: 2px solid var(--Maincolor);
+    border-radius: 5px;
+    background-color: #f0f0f017;
+    outline: none;
+    color: white;
+    font-size: 17px;
+    padding-left: 10px;
+}
+.content-section .container .form-reg input:focus{
+    border: 2px solid var(--Wcolor);
+}
+.content-section .container .form-reg input[type='submit']{
+    width: fit-content;
+    padding: 10px 25px;
+    margin: 20px 0px;
+    height: auto;
+    background-color: var(--Maincolor);
+    color: white;
+}
+.content-section .container .form-reg input[type='submit']:hover{
+    cursor: pointer;
+}
+/*form*/
 .content-section{
     width: 100%;
+    background-color: var(--Maincolor);
     background-image: url(maincover.svg);
-    height: 700px;
+    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 30px;
 }
 .content-section .container {
     width: 90%;
@@ -127,6 +179,7 @@ letter-spacing: 1px;
     font-family: var(--Fontfamily);
     position: absolute;
     left: calc(50% - 146px);
+
 }
 .content-section .container .book-icon:hover{
     color: var(--Bcolor);
@@ -161,6 +214,21 @@ letter-spacing: 1px;
         padding: 7px;
     
     }
+    .content-section .container .form-reg {
+        width: 90%;
+     margin-left: 5%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        z-index: 1;
+        border: 5px solid var(--Maincolor);
+        height: auto;
+        border-radius: 5px;
+       
+    }
+    .content-section .container .form-reg input{
+        background-color: rgba(255, 255, 255, 0.503);
+    }
 }
 
 
@@ -189,6 +257,21 @@ letter-spacing: 1px;
         font-size: 15px;
         padding: 7px;
     
+    }
+    .content-section .container .form-reg {
+        width: 70%;
+     margin-left: 15%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        z-index: 1;
+        border: 5px solid var(--Maincolor);
+        height: auto;
+        border-radius: 5px;
+       
+    }
+    .content-section .container .form-reg input{
+        background-color: rgba(255, 255, 255, 0.334);
     }
 }
 /*end content section*/
@@ -270,7 +353,7 @@ padding-bottom: 50px;
     text-align: center;
     font-family: var(--Fontfamily);
     font-size: 25px;
-    color:white;
+    color: white;
 }
 .advantages-section .container .teachers-cards .inside-card > p {
     font-size: var(--Fontsize);
@@ -613,6 +696,7 @@ padding-bottom: var(--Ptop);
     background-image:linear-gradient(red, blue, green) ;
     text-align: center;
     color: white;
+   display: none;
 }
 /*ending evaluation section*/
 /*starting blogs section*/
