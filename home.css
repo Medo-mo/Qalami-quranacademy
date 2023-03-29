@@ -217,14 +217,7 @@ letter-spacing: 1px;
     .content-section .container .form-reg {
         width: 90%;
      margin-left: 5%;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        z-index: 1;
-        border: 5px solid var(--Maincolor);
-        height: auto;
-        border-radius: 5px;
-       
+
     }
     .content-section .container .form-reg input{
         background-color: rgba(255, 255, 255, 0.503);
@@ -261,13 +254,7 @@ letter-spacing: 1px;
     .content-section .container .form-reg {
         width: 70%;
      margin-left: 15%;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        z-index: 1;
-        border: 5px solid var(--Maincolor);
-        height: auto;
-        border-radius: 5px;
+      
        
     }
     .content-section .container .form-reg input{
