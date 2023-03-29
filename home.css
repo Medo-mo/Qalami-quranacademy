@@ -116,7 +116,7 @@ letter-spacing: 1px;
     width: 100%;
     background-color: var(--Maincolor);
     background-image: url(maincover.svg);
-    height: auto;
+    height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 30px;
